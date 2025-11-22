@@ -1,0 +1,9 @@
+[tool.ruff]
+# Formatting rules (similar to Black)
+line-length = 80
+indent-width = 2
+
+[tool.ruff.format]
+# Explicitly enable formatting (Ruff replaces Black/isort)
+indent-style = "space"  # or "tab"
+quote-style = "double"  # or "single"
